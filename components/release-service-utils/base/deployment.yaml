@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: release-service-utils
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-release-2-tenant/release-service/release-service-utils@sha256:f5beeaafe664ea85a572e0688f13a1f588a015f79de7e7392127bc76298a2bd9
+      - image: quay.io/redhat-user-workloads/rhtap-release-2-tenant/release-service/release-service-utils@sha256:ba4f3dc001c4470041e1f1f83a92aa3dbc485848d7b446c7cafaf22967225a7d
         imagePullPolicy: Always
         name: container-image
         ports:
