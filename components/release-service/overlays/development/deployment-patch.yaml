@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-release-2-tenant/release-service/release-service@sha256:03e3af14ad4894d9ac84dc1abb457894f6e90075db1821ed290361300a8acf64
+      - image: quay.io/redhat-user-workloads/rhtap-release-2-tenant/release-service/release-service@sha256:917b266539134969c8e4e15d95fed0a7fa094b490e8cbb281f3f3d666094a52b
         name: container-image
         resources: {}
 status: {}
