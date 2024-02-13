@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: release-service
     app.kubernetes.io/part-of: release-service
-  name: release-serviceoyia
+  name: release-servicefbzf
 spec:
   port:
     targetPort: 1
