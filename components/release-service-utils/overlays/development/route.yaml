@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: release-service-utils
     app.kubernetes.io/part-of: release-service
-  name: release-service-utilsuxph
+  name: release-service-utilswuca
 spec:
   port:
     targetPort: 8080
