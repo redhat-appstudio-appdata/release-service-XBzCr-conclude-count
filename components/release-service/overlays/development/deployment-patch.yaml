@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: release-service
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-release-2-tenant/release-service/release-service@sha256:6489dfbb68780f1b0df44c662cbd2a3d6e40e8dda54e91a889ad33b48d94c7ae
+      - image: quay.io/redhat-user-workloads/rhtap-release-2-tenant/release-service/release-service@sha256:877be5ab11bd8bd87ac97a73a061f1511d745f84bad0e2c58d076f41c0173869
         name: container-image
         resources: {}
 status: {}
